@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+a{
+    color: #fff;
+}
+
+:root {
+    --bg-primary: #151515;
+    --bg-second: rgba(24, 24, 24,70);
+    --primary: linear-gradient(#44D374, #32F484);
+    --second: #fff;
+    --terciary: #32F484;
+    --html-color: #FF6D00;
+    --css-color: #039BE5;
+    --js-color: #FFD600;
+    --flutter-color: #40C4FF;
+
+}
+
+/* nav bar */
+#navAll{
+    background-color: #151515;
+}
+
+.column{    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto
+}
+
+.column > button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 20px;
+    margin: 0 auto;
+    background-color: #151515;
+    color: beige;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.logo {   
+    right: auto; 
+    left: auto;
+    top: -10px;
+    position:absolute;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.circle-image img{
+    border-radius: 50%;
+  }
+  
+.column .button2 {padding: 10px 28px;}
+.column .button3 {padding: 10px 0px; width: 190px; }
+.column .button4 {padding: 10px 16px;}
+.column .button5 {padding: 10px;}
+
+
+/* Apresentação One*/
+
+#apresentacao_one{
+    background-color: #151515;
+    width: auto;
+    height: 900px;
+}
+
+#proposta{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+#descricao{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: unset;
+    margin-left: 0;
+}
+
+.logoApresentacao_one{
+    height: 750px;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.logoApresentacao_one img{
+    width: 220px;
+    height: 400px;
+    margin: 100px auto;
+    margin-top: 150px;
+}
+
+/* Apresentação Two*/
+
+#apresentacao_two{
+    background-color: rgba(24, 24, 24,70);
+    width: auto;
+    height: 600px;
+}
+
+.sobremim {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-top: 150px;
+}
+
+.conteudo_sobremim h1{
+    font-size: 3rem;
+    color: var(--terciary);
+    font-weight:600
+}
+
+.conteudo_sobremim p{
+    font-size: 1.7rem;
+    color: white;
+    font-weight:400
+}
+
+/* Apresentação three*/
+
+#apresentacao_three{
+    background-color: rgba(24, 24, 24,70);
+    width: auto;
+    height: 700px;
+}
+
+/* Apresentação four*/
+
+#apresentacao_four{
+    background-color: rgba(24, 24, 24,70);
+    width: auto;
+    height: 700px;
+}
+
+/* Processo de construção */
+
+#Processo_de_construcao{
+    background-color: #151515;
+    width: auto;
+    height: 700px;
+}
+
+#Texto_processo_de_construcao > div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+}
+
+/* Processo de construção */
+
+#Proposta{
+    background-color: #151515;
+    width: auto;
+    height: 700px;
+}
+
+#Texto_proposta > div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+}
+
+/* Processo de Projetos */
+
+#Projetos{
+    background-color: #151515;
+    width: auto;
+    height: 700px;
+}
+
+#Texto_projetos > div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+}
+
+
+
+@media (max-width: 1000px){
+
+    .logo {   
+        width: 0;
+        height: 0;
+    }
+
+    #logo{
+        margin-bottom: 35px;
+    }
+
+    #texto_apresentacao {
+        margin-top: 100px;
+        display: block;
+    }
+
+    #proposta{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-size: 40px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    #descricao{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-style:normal;
+        font-size: 17px;
+        color: #ffffff;
+        font-weight: unset;
+        text-align: center;
+    }
+
+    .conteudo_sobremim h1{
+        font-size: 2.5rem;
+    }
+
+    .conteudo_sobremim p{
+        font-size: 1.5rem;
+    }
+
+}
